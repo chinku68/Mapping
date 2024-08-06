@@ -1,0 +1,43 @@
+/* NavBar.css */
+
+.search {
+    position: relative;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.15);
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+    margin-left: 0;
+    width: 100%;
+    border: 1px solid #ccc;
+  }
+  
+  .search:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+  
+  .search:focus-within {
+    border-color: blue;
+  }
+  
+  .searchIconWrapper {
+    padding: 0 16px;
+    height: 100%;
+    position: absolute;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .inputBase {
+    color: inherit;
+    padding-left: 40px;
+    width: 100%;
+  }
+  
+  .inputBase input {
+    padding: 8px;
+    width: 100%;
+  }
+  

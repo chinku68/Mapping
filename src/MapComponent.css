@@ -1,0 +1,17 @@
+/* .map-container {
+    height: 100vh;
+    width: 100%;
+  } */
+  
+  .leaflet-control-layers {
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .map-container {
+    margin-top: 20px !important;
+    height: 100vh; /* Full height */
+    width: 100%;   /* Full width */
+    position: relative; /* Ensure it's positioned correctly */
+  }
